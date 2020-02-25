@@ -12,11 +12,12 @@
         <ul class="nav navbar-nav">
           <li class="active"><a [routerLink] = "['']">Home</a></li>
           <li><a  [routerLink] = "['/about']">About</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a [routerLink] = "['/gallery']">Gallery</a></li>
+          <li><a [routerLink] = "['/contact']">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a [routerLink] = "['/login']"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a [routerLink] = "['/signup']"><span class="glyphicon glyphicon-sign-in-alt"></span> Signup</a></li>
         </ul>
       </div>
     </div>

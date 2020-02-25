@@ -1,0 +1,27 @@
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+.item{
+    background: white;    
+    text-align: center;
+    height: 300px !important;
+    width:100% !important;
+}
+
+
+
+
+.carousel.carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0); /* ie fix */
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
